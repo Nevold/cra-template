@@ -37,6 +37,7 @@
     "@typescript-eslint",
     "prettier"
   ],
+  "ignorePatterns": ["reportWebVitals.ts", "**/test"],
   "rules": {
     "curly": "error",
     "eqeqeq": "warn",
