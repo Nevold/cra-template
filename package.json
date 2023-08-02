@@ -11,6 +11,7 @@
     "@types/node": "^17.0.45",
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
+    "antd": "^5.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
@@ -22,7 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint .",
-    "format": "prettier --write src//**/*.{js,jsx,ts,tsx,css} --config ./.prettierrc",
+    "format": "prettier --write src//**/*.{js,jsx,ts,tsx,css} --config .prettierrc",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --watchAll=false --coverage",
     "eject": "react-scripts eject"
