@@ -22,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint .",
-    "format": "prettier --write src//**/*.{js,jsx,ts,tsx,css} --config ./.prettierrc",
+    "format": "prettier --write src//**/*.{js,jsx,ts,tsx,css} --config .prettierrc",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --watchAll=false --coverage",
     "eject": "react-scripts eject"
