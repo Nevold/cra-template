@@ -1,4 +1,4 @@
-import React from 'react';
+import { Button } from 'antd';
 
 import { Counter } from './features/counter-temp/Counter';
 import logo from './logo.svg';
@@ -7,6 +7,7 @@ import './App.css';
 function App(): JSX.Element {
   return (
     <div className="App">
+      <Button type="primary">Button</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
