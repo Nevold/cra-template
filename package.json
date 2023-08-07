@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce",
+  "name": "ecommerce-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "lint": "eslint .",
     "format": "prettier --write src//**/*.{js,jsx,ts,tsx,css} --config .prettierrc",
     "test": "react-scripts test",
